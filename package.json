@@ -1,0 +1,16 @@
+{
+  "name": "gestionserver",
+  "version": "1.0.0",
+  "description": "A Bot for a gestion of your server.",
+  "main": "index.js",
+  "author": "Momentalno",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "discord.js-commando": "^0.12.3",
+    "pg": "^8.6.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
