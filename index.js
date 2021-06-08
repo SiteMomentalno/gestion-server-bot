@@ -11,13 +11,6 @@ client.on(`message`, message => {
     }
 });
 
-const kick = require("../commands/kick")
-module.exports = (client, message) => {
-  if (message.content.startsWith("!kick")) {
-    return kick(message)
-  }
-}
-
 client.on("guildMemberAdd", async member => {
   const channel = member.guild.channels.cache.find(
     ch => ch.name === "member-log"
